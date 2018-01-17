@@ -1,0 +1,6 @@
+framework module Pods_HBTabbarFrameSwiftTests {
+  umbrella header "Pods-HBTabbarFrameSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
