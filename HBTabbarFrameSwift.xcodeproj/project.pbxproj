@@ -23,6 +23,13 @@
 		4D150E4A200F57F2008F7917 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D150E42200F57F2008F7917 /* UIView+Frame.swift */; };
 		4D150E4B200F57F2008F7917 /* UIView+Positioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D150E44200F57F2008F7917 /* UIView+Positioning.swift */; };
 		AEC6FB1DAFD33742306F8CD5 /* Pods_HBTabbarFrameSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFA23E87BCCFDDB2F856E40 /* Pods_HBTabbarFrameSwiftTests.framework */; };
+		FB1A76CC2016D43E00CD04A2 /* HBTabBarCenterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1A76CB2016D43E00CD04A2 /* HBTabBarCenterItem.swift */; };
+		FB35C479201818B600EDE318 /* HBMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB35C478201818B600EDE318 /* HBMeViewController.swift */; };
+		FB35C47B201818C300EDE318 /* HBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB35C47A201818C300EDE318 /* HBMainViewController.swift */; };
+		FBC6D7F020117B21008003B8 /* HBTabBarVCManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC6D7EF20117B21008003B8 /* HBTabBarVCManage.swift */; };
+		FBC6D7F220117B42008003B8 /* HBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC6D7F120117B42008003B8 /* HBTabBarController.swift */; };
+		FBC6D7F420117DAF008003B8 /* HBTabBarConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBC6D7F320117DAF008003B8 /* HBTabBarConfig.plist */; };
+		FBC6D7F620117DD5008003B8 /* HBTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC6D7F520117DD5008003B8 /* HBTabBar.swift */; };
 		FCF7727FBCDBACCB16AB171D /* Pods_HBTabbarFrameSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A532435616825EA3D24CBF6 /* Pods_HBTabbarFrameSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +80,13 @@
 		E7AB5203A1485A82D25AA621 /* Pods-HBTabbarFrameSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBTabbarFrameSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBTabbarFrameSwiftTests/Pods-HBTabbarFrameSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F19B2BFC09AA664EACDBA913 /* Pods-HBTabbarFrameSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBTabbarFrameSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBTabbarFrameSwift/Pods-HBTabbarFrameSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		F566A9766224420280ED6FB4 /* Pods-HBTabbarFrameSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBTabbarFrameSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBTabbarFrameSwiftUITests/Pods-HBTabbarFrameSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB1A76CB2016D43E00CD04A2 /* HBTabBarCenterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBTabBarCenterItem.swift; sourceTree = "<group>"; };
+		FB35C478201818B600EDE318 /* HBMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBMeViewController.swift; sourceTree = "<group>"; };
+		FB35C47A201818C300EDE318 /* HBMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBMainViewController.swift; sourceTree = "<group>"; };
+		FBC6D7EF20117B21008003B8 /* HBTabBarVCManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBTabBarVCManage.swift; sourceTree = "<group>"; };
+		FBC6D7F120117B42008003B8 /* HBTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBTabBarController.swift; sourceTree = "<group>"; };
+		FBC6D7F320117DAF008003B8 /* HBTabBarConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HBTabBarConfig.plist; sourceTree = "<group>"; };
+		FBC6D7F520117DD5008003B8 /* HBTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,9 +197,10 @@
 		4D150E38200F57F2008F7917 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FB35C4732018121D00EDE318 /* Class */,
 				4D150E39200F57F2008F7917 /* Base */,
-				4D150E41200F57F2008F7917 /* CustomKits */,
 				4D150E43200F57F2008F7917 /* MiddleWare */,
+				4D150E41200F57F2008F7917 /* CustomKits */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -195,6 +210,7 @@
 			children = (
 				4D150E3A200F57F2008F7917 /* HBcommonRoot */,
 				4D150E3D200F57F2008F7917 /* HBConfigFramework */,
+				FBC6D7EE20117AD1008003B8 /* HBTabBarController */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -232,6 +248,59 @@
 				4D150E44200F57F2008F7917 /* UIView+Positioning.swift */,
 			);
 			path = MiddleWare;
+			sourceTree = "<group>";
+		};
+		FB35C4732018121D00EDE318 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FB35C4752018121D00EDE318 /* Main */,
+				FB35C4742018121D00EDE318 /* Me */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		FB35C4742018121D00EDE318 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				FB35C4762018186400EDE318 /* Controllers */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		FB35C4752018121D00EDE318 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FB35C4772018187000EDE318 /* Controllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FB35C4762018186400EDE318 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB35C478201818B600EDE318 /* HBMeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB35C4772018187000EDE318 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB35C47A201818C300EDE318 /* HBMainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FBC6D7EE20117AD1008003B8 /* HBTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				FBC6D7F320117DAF008003B8 /* HBTabBarConfig.plist */,
+				FBC6D7EF20117B21008003B8 /* HBTabBarVCManage.swift */,
+				FBC6D7F120117B42008003B8 /* HBTabBarController.swift */,
+				FBC6D7F520117DD5008003B8 /* HBTabBar.swift */,
+				FB1A76CB2016D43E00CD04A2 /* HBTabBarCenterItem.swift */,
+			);
+			path = HBTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,6 +421,7 @@
 			files = (
 				4D150E15200F563A008F7917 /* LaunchScreen.storyboard in Resources */,
 				4D150E12200F563A008F7917 /* Assets.xcassets in Resources */,
+				FBC6D7F420117DAF008003B8 /* HBTabBarConfig.plist in Resources */,
 				4D150E10200F563A008F7917 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,14 +598,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D150E45200F57F2008F7917 /* HBNavigationController.swift in Sources */,
+				FB35C47B201818C300EDE318 /* HBMainViewController.swift in Sources */,
+				FBC6D7F020117B21008003B8 /* HBTabBarVCManage.swift in Sources */,
 				4D150E49200F57F2008F7917 /* HBPreference.swift in Sources */,
 				4D150E4B200F57F2008F7917 /* UIView+Positioning.swift in Sources */,
 				4D150E0D200F563A008F7917 /* ViewController.swift in Sources */,
+				FB1A76CC2016D43E00CD04A2 /* HBTabBarCenterItem.swift in Sources */,
+				FB35C479201818B600EDE318 /* HBMeViewController.swift in Sources */,
 				4D150E48200F57F2008F7917 /* HBInitiateConfig.swift in Sources */,
 				4D150E4A200F57F2008F7917 /* UIView+Frame.swift in Sources */,
 				4D150E46200F57F2008F7917 /* HBViewController.swift in Sources */,
 				4D150E0B200F563A008F7917 /* AppDelegate.swift in Sources */,
 				4D150E47200F57F2008F7917 /* HBDefine.swift in Sources */,
+				FBC6D7F220117B42008003B8 /* HBTabBarController.swift in Sources */,
+				FBC6D7F620117DD5008003B8 /* HBTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,7 +783,7 @@
 				INFOPLIST_FILE = HBTabbarFrameSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.PB.HBTabbarFrameSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.PB.HBTabbarFrameSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -724,7 +800,7 @@
 				INFOPLIST_FILE = HBTabbarFrameSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.PB.HBTabbarFrameSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.PB.HBTabbarFrameSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
